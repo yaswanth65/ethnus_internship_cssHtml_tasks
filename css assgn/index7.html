@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task-12</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .btn{
+                 width:350px;
+                 height:45px;
+                 background-color: white;
+                 border: 0.5px solid white;
+                 padding : 4px;
+                 border-radius: 5px;
+             }
+             td{
+                 color:whitesmoke;
+                 font-size: larger;
+             }
+             input{
+                 height: 20px;
+             }
+            #form{
+                 margin-left: auto;
+                 margin-right: auto;
+                 background-color: rgb(122, 28, 68);
+                 margin-top: 50px;  
+                 padding: 32px 16px;
+                 width : 50%;
+                 height : 500px;
+                 align-items : center;
+             }
+         </style>
+    </head>
+    <body style="background-color: rgb(165, 16, 78);">
+        <div>
+            <form>
+                <table id="form">
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" placeholder="your name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" placeholder="your email"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number:</td>
+                        <td><input type="tel"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td><input type="radio"> Male
+                            <input type="radio">Female
+                            <input type="radio">Other
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>Language:</td>
+                        <td><select>
+                            <option value="Select language" >Select language</option>
+                            <option value="English">English</option>
+                            <option value="Telugu">Telugu</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Tamil">Tamil</option>
+                            <option value="Kannada">Kannada</option>
+                            <option value="urdu">Urdu</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Zipcode:</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>About:</td>
+                        <td><textarea style="width:280px;height : 80px;" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button class="btn" type="submit">Register</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
